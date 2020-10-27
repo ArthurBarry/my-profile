@@ -1,0 +1,113 @@
+
+
+body {
+    background:url(https://wallup.net/wp-content/uploads/2017/03/27/380781-portrait_display-abstract-digital_art-geometry-triangle-lines.jpg);
+    background-size: 1000px;
+    color: rgb(20, 20, 20);
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    font-weight: 900;
+
+}
+
+h1, h2, h3 {
+  font-family: 'Noto Sans', sans-serif;
+
+}
+h1 {
+  color: #85b2a9;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+h2 {
+     color: #9b62b2;
+    font-size: 28px;
+    font-weight: 500;
+
+}
+
+a {
+  font-family: 'Cormorant Garamond', serif;
+  text-decoration: none;
+  color: #9b62b2;
+  font-weight: bold;
+  transition: color 1s ease;
+}
+a:hover {
+color: black;
+
+}
+
+
+.container {
+width: 700px;
+margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+  .container {
+    width: 600px;
+  }
+
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 500px;
+  }
+
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+  }
+
+}
+
+.card-white {
+background-color: white;
+padding: 40px;
+box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+border-radius: 4px;
+margin: 20px 0px;
+text-align: center;
+}
+
+.img-circle {
+  border-radius:50px;
+}
+
+.btn_purple {
+  background-color: #9b62b2;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 1s ease;
+}
+.btn_purple:hover {
+
+background-color: black;
+color: white;
+
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 50px;
+}
+
+.list-inline i {
+
+font-size: 30px;
+}
+
+#intro p {
+  margin-bottom: 30px;
+
+}
